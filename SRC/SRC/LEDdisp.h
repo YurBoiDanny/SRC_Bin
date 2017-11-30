@@ -21,7 +21,7 @@ public:
 	LEDdisp(int IO1,int IO2,int IO3,int IO4);
 	void cycle(String state);
 	void flashLED(int hi, int lo);
-	void displayBinCap();
+	void displayBinCap(double &BinCapacity);
 	void startUp();
 	~LEDdisp();
 };

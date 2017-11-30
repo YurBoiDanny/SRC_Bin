@@ -24,12 +24,18 @@
     <ClCompile Include="LEDdisp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LCDdisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeightSensor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LEDdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LCDdisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

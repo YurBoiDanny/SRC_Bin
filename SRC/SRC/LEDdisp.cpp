@@ -112,7 +112,7 @@ void LEDdisp::cycle(String state)
 	}
 }
 
-void LEDdisp::displayBinCap()
+void LEDdisp::displayBinCap(double &BinCapacity)
 {
 	currHeight = getDistance();
 	//Serial.print("Current height is...");
@@ -182,6 +182,7 @@ void LEDdisp::displayBinCap()
 		}
 	}
 
+	BinCapacity = currBinCap;
 	prevHeight = currHeight;
 }
 

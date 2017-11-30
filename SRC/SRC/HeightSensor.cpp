@@ -59,6 +59,7 @@ float HeightSensor::getMaxHeight()
 
 	for (int i = 0; i < runTimes; i++)
 	{
+		//maxHeight += getDistance();
 		currHeight = getDistance(); //Sets Current Distance Measured by the Ultrasonic Sensor
 		if (maxHeight<currHeight) maxHeight = currHeight;//If the a new length is greater than distance make that the new max distance
 	}
@@ -71,7 +72,7 @@ float HeightSensor::getMaxHeight()
 float HeightSensor::getMaxWidth( )
 {
 	//Get the max float from the UltraSonic Sensor
-	maxWidth = -1000000; //Find a better method of setting a lower
+	//maxWidth = -1000000; //Find a better method of setting a lower
 	int runTimes = 150;//Number of times the loop is ran. This enssures the accuracy of the reading.
 
 	for (int i = 0; i < runTimes; i++)
